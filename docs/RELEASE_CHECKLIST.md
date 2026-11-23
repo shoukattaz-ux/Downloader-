@@ -2,7 +2,7 @@
 Nothing here guarantees approval; Play review is at Google's discretion.
 
 ## Build & signing
-- [ ] Replace placeholders: `SUPPORT_EMAIL`, `PRIVACY_POLICY_URL` (`app/build.gradle.kts`), contact lines in `store/*.md` and `app/src/main/res/raw/*.txt`
+- [x] Support email set to shoukattaz@gmail.com; privacy URL set (goes live once GitHub Pages is enabled)
 - [ ] Decide final package id (`com.stashly.app`) **before** first upload — it can't change later
 - [ ] Create an upload keystore (`keytool -genkeypair -v -keystore upload.jks -alias upload -keyalg RSA -keysize 4096 -validity 10000`), keep it out of git, back it up; enrol in **Play App Signing**
 - [ ] `keystore.properties` or `STASHLY_*` env vars → `./gradlew :app:bundleRelease` → verify with `jarsigner -verify`
@@ -15,7 +15,7 @@ Nothing here guarantees approval; Play review is at Google's discretion.
 - [ ] Pre-launch report in Play Console reviewed; closed/internal testing track used first (new personal accounts need the required closed-test period)
 
 ## Console forms
-- [ ] **App content → Privacy policy URL** (host `store/PRIVACY_POLICY.md` on a public page)
+- [ ] **App content → Privacy policy URL** (publish `docs/site/privacy.html` (GitHub Pages: repo Settings → Pages → branch, folder `/docs/site` — URL then is https://shoukattaz-ux.github.io/Downloader-/privacy.html))
 - [ ] **Data safety** → `store/DATA_SAFETY.md`
 - [ ] **Foreground service permissions** → declare `dataSync`, use `store/PERMISSIONS.md` justification + short video of a download with its notification
 - [ ] **Content rating questionnaire** → `store/LISTING.md` (answers prepared)

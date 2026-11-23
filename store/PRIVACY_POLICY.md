@@ -1,7 +1,7 @@
 # Privacy Policy
 Last updated: 2026-11-23
 
-Stashly ("the app") is a media downloader and file manager. This policy explains what the app does with your data. Replace the contact details below with your own before publishing.
+Stashly ("the app") is a media downloader and file manager. This policy explains what the app does with your data. 
 
 # Summary
 Stashly does not create accounts, does not include advertising or analytics SDKs, and does not send your files, download history or clipboard contents to us or to any third party.
@@ -21,6 +21,12 @@ Internet and network state: to download files. Notifications (Android 13+): to s
 # Credentials
 The app never asks for, stores or transmits passwords or session cookies. It cannot download content that requires signing in.
 
+# Third-party servers
+Websites you download from, and archive.org, have their own privacy policies. We have no control over them.
+
+# Security
+All downloads use HTTPS. The app blocks executable and script file types, never stores passwords or cookies, and keeps its database private to the app. No backups of app data are sent to cloud services.
+
 # Children
 The app is not directed at children under 13.
 
@@ -30,5 +36,8 @@ You can clear download history in Settings, delete downloaded files in Files, an
 # Changes
 We may update this policy; the date above will change when we do.
 
+# Legal basis and your rights
+Because the developer does not collect or hold your personal data, there is nothing for us to access, export or delete on our side. If you are in the EEA/UK or California and believe we hold data about you, email us and we will respond within 30 days.
+
 # Contact
-support@example.com
+Questions or requests: shoukattaz@gmail.com

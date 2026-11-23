@@ -29,8 +29,8 @@ android {
         versionCode = 1
         versionName = "1.0.0"
         testInstrumentationRunner = "com.stashly.app.HiltTestRunner"
-        buildConfigField("String", "SUPPORT_EMAIL", "\"support@example.com\"")
-        buildConfigField("String", "PRIVACY_POLICY_URL", "\"https://example.com/stashly/privacy\"")
+        buildConfigField("String", "SUPPORT_EMAIL", "\"shoukattaz@gmail.com\"")
+        buildConfigField("String", "PRIVACY_POLICY_URL", "\"https://shoukattaz-ux.github.io/Downloader-/privacy.html\"")
         vectorDrawables.useSupportLibrary = true
     }
 

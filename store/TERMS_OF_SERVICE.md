@@ -1,7 +1,7 @@
 # Terms of Service
 Last updated: 2026-11-23
 
-By using Stashly you agree to these terms. Replace the contact details with your own before publishing.
+By using Stashly you agree to these terms.
 
 # Permitted use
 Stashly lets you download media files that you own, that are in the public domain, that are licensed for download, or that the rights holder has otherwise authorised you to save. You are responsible for making sure you have the right to download and use any content.
@@ -22,4 +22,4 @@ To the maximum extent permitted by law, we are not liable for any loss arising f
 We may update these terms; continued use after changes means you accept them.
 
 # Contact
-support@example.com
+shoukattaz@gmail.com

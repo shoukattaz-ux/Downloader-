@@ -34,7 +34,7 @@ Requires JDK 17+ and the Android SDK (platform 36, build-tools 35+).
 ```
 **Signing:** create `keystore.properties` (git-ignored) with `storeFile`, `storePassword`, `keyAlias`, `keyPassword` — or set `STASHLY_STORE_FILE/PASSWORD`, `STASHLY_KEY_ALIAS/PASSWORD`. Without them `bundleRelease` produces an **unsigned** bundle.
 
-**Before publishing**, replace the placeholders: `SUPPORT_EMAIL` and `PRIVACY_POLICY_URL` in `app/build.gradle.kts`, the contact line in `app/src/main/res/raw/*.txt` and `store/*.md`, and the package id `com.stashly.app` if you want your own.
+**Before publishing**: enable GitHub Pages (folder `/docs/site`) so the privacy URL in `app/build.gradle.kts` works, and decide the final package id `com.stashly.app`.
 
 ## Docs
 `docs/ARCHITECTURE.md` · `docs/TESTING.md` · `docs/RELEASE_CHECKLIST.md` · `store/` (listing, Data Safety, permission justification, content rating, privacy policy, terms, graphics)
